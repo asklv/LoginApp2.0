@@ -8,12 +8,26 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
+    
+    // MARK: - IB Outlets
+    @IBOutlet var usernameTextField: UITextField!
+    @IBOutlet var passwordTextField: UITextField!
+    
+    @IBOutlet var loginButton: UIButton!
+    
+    // MARK: - Private properties
+    private let username = "Andrey"
+    private let password = "Andrey"
+    
+    // MARK: - Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let userVC = segue.destination as? UserViewController else { return }
+        userVC.username = username
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        loginButton.layer.cornerRadius = 5
     }
-
-
 }
 
