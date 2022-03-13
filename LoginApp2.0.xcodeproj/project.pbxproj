@@ -331,7 +331,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TH4U9ZJVT9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LoginApp2.0/Info.plist;
+				INFOPLIST_FILE = LoginApp2.0/App/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Login App 2.0";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -361,7 +361,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TH4U9ZJVT9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LoginApp2.0/Info.plist;
+				INFOPLIST_FILE = LoginApp2.0/App/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Login App 2.0";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
