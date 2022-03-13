@@ -56,15 +56,55 @@
 		55FF16FF27DE8BA3006CD51F /* LoginApp2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				55FF170027DE8BA3006CD51F /* AppDelegate.swift */,
-				55FF170227DE8BA3006CD51F /* SceneDelegate.swift */,
-				55FF170427DE8BA3006CD51F /* ViewController.swift */,
-				55FF170627DE8BA3006CD51F /* Main.storyboard */,
-				55FF170927DE8BA3006CD51F /* Assets.xcassets */,
-				55FF170B27DE8BA3006CD51F /* LaunchScreen.storyboard */,
-				55FF170E27DE8BA3006CD51F /* Info.plist */,
+				55FF171427DE8BC7006CD51F /* ViewControllers */,
+				55FF171627DE8BE0006CD51F /* StoryBoards */,
+				55FF171827DE8BF6006CD51F /* Models */,
+				55FF171527DE8BD7006CD51F /* App */,
+				55FF171727DE8BEA006CD51F /* Resources */,
 			);
 			path = LoginApp2.0;
+			sourceTree = "<group>";
+		};
+		55FF171427DE8BC7006CD51F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				55FF170427DE8BA3006CD51F /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		55FF171527DE8BD7006CD51F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				55FF170027DE8BA3006CD51F /* AppDelegate.swift */,
+				55FF170227DE8BA3006CD51F /* SceneDelegate.swift */,
+				55FF170E27DE8BA3006CD51F /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		55FF171627DE8BE0006CD51F /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				55FF170627DE8BA3006CD51F /* Main.storyboard */,
+				55FF170B27DE8BA3006CD51F /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		55FF171727DE8BEA006CD51F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55FF170927DE8BA3006CD51F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		55FF171827DE8BF6006CD51F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,21 +332,23 @@
 				DEVELOPMENT_TEAM = TH4U9ZJVT9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LoginApp2.0/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Login App 2.0";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "SokolovApp.LoginApp2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,21 +362,23 @@
 				DEVELOPMENT_TEAM = TH4U9ZJVT9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LoginApp2.0/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Login App 2.0";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "SokolovApp.LoginApp2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
